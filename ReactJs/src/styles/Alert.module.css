@@ -1,0 +1,23 @@
+.Message {
+  position: fixed;
+  width: 100%;
+  padding: 10px 20px;
+  color: white;
+  background-color: #271509;
+  z-index: 99999;
+  left: 0;
+  -webkit-box-shadow: -1px -1px 17px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px -1px 17px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px -1px 17px 0px rgba(0, 0, 0, 0.75);
+
+  font-weight: 400;
+}
+
+.GoToCart {
+  float: right;
+}
+
+.GoToCart a {
+  font-size: 17px !important;
+  color: white;
+}

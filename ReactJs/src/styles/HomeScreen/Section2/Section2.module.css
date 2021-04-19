@@ -1,0 +1,74 @@
+.Section2 {
+  position: relative;
+  background-color: white;
+  padding-bottom: 30px;
+}
+
+.Section2 div {
+  position: relative;
+}
+
+.leaves {
+  position: absolute;
+  left: 50%;
+  top: -50px;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  max-width: 120px;
+  transition: 3s all ease;
+}
+
+.IntroBox {
+  width: 100%;
+  max-width: 550px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 200px;
+}
+
+.IntroBox span {
+  font-size: 13px;
+}
+
+.IntroBox h1 {
+  font-weight: 1000;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.PizzaSlice {
+  width: 250px;
+  position: absolute;
+  left: 100px;
+  bottom: 0;
+  transition: 3s all ease;
+}
+
+.card {
+  width: 100%;
+  display: inline-block;
+  margin: 0 10px;
+  text-align: center;
+  padding: 20px;
+  font-weight: 700;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card img {
+  width: 99%;
+  display: block;
+  margin: 40px 0;
+}
+
+@media screen and (max-width: 747px) {
+  .card {
+    padding: 0px;
+    margin: 0 !important;
+  }
+}
+
+@media screen and (min-width: 747px) {
+  .card {
+    max-width: 390px;
+  }
+}

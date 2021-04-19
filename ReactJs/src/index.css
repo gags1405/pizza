@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: url("/assets/woodenbench.jpg");
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+* {
+  font-size: 20px;
+  transition: 0.5s all ease;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white !important;
+}
+
+.active {
+  border-bottom: 2px solid White;
+}
+
+@media screen and (min-width: 747px) {
+  .desktop-hidden {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 747px) {
+  .mobile-hidden {
+    display: none;
+  }
+}
+
+.Orange {
+  color: #f3a531 !important;
+}
+
+button:focus {
+  outline: none;
+  border: none;
+}

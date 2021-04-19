@@ -1,0 +1,75 @@
+.InputDialog {
+  background-color: white;
+  font-weight: 400;
+  color: #362f24;
+}
+.InputDialog form {
+  font-size: 15px;
+}
+.InputDialog h4 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+.InputDialog input {
+  display: block;
+  padding: 10px 10px;
+  width: 100%;
+  font-size: 13px;
+  max-width: 400px;
+  border: none;
+  -webkit-box-shadow: 0px 0px 0px 3px rgba(244, 246, 246, 1);
+  -moz-box-shadow: 0px 0px 0px 3px rgba(244, 246, 246, 1);
+  box-shadow: 0px 0px 0px 3px rgba(244, 246, 246, 1);
+  margin: 20px 0;
+  transition: none !important;
+}
+
+.InputDialog input::placeholder {
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 14px;
+}
+
+.InputDialog input:focus {
+  outline: none;
+  -webkit-box-shadow: 0px 0px 1px 2px rgba(231, 166, 10, 1);
+  -moz-box-shadow: 0px 0px 1px 2px rgba(231, 166, 10, 1);
+  box-shadow: 0px 0px 1px 2px rgba(231, 166, 10, 1);
+}
+.Button {
+  float: right;
+  color: white;
+  background-color: #553921;
+  border: none;
+  padding: 10px 20px;
+  font-size: 13px;
+}
+
+.Error {
+  border: none;
+  --webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+  border: 2px solid red !important;
+}
+
+.ErrorMessage {
+  font-size: 12px !important;
+  color: red !important;
+  font-weight: 100;
+  display: block;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+.InputDialog input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.InputDialog input[type="number"] {
+  -moz-appearance: textfield;
+}

@@ -1,0 +1,72 @@
+.Overview {
+  padding-top: 100px;
+  font-family: "Roboto";
+}
+
+.Overview span {
+  display: block;
+  font-size: 15px;
+  margin: 25px 0;
+}
+
+.Overview span b {
+  float: right;
+  font-size: 15px;
+  font-weight: 100;
+}
+.Overview i {
+  margin-right: 10px;
+  color: #f3a531;
+}
+.Overview h3 {
+  margin-left: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.Button {
+  float: right;
+  color: white;
+  background-color: #553921;
+  border: none;
+  padding: 10px 20px;
+  font-size: 15px;
+  width: 100%;
+}
+
+.TotalPrice b {
+  font-size: 18px;
+  float: right;
+}
+.SubPrice {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 14px;
+  font-weight: 100 !important;
+  margin: 5px 0;
+}
+.SubPrice b {
+  font-size: 14px;
+  float: right;
+  font-weight: 100;
+}
+
+.Overview p {
+  font-size: 12px;
+  margin-left: 30px;
+}
+
+@media screen and (max-width: 747px) {
+  .Overview {
+    padding-top: 10px;
+  }
+}
+
+.Modal {
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 99999;
+  overflow-y: scroll;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  right: 0;
+  padding: 30px;
+}

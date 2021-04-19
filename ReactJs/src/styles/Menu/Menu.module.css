@@ -1,0 +1,25 @@
+.Menu {
+  background-color: white;
+  padding: 40px 10px;
+}
+
+.Menu h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.Active {
+  font-weight: bolder;
+  color: #222;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.Menu i {
+  padding: 15px;
+}
+
+.Menu i:hover {
+  cursor: pointer;
+}
